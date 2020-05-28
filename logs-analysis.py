@@ -1,5 +1,5 @@
-"""Analysis of Newspaper website logs."""
 # !/usr/bin/env python
+"""Analysis of Newspaper website logs."""
 
 import psycopg2
 
