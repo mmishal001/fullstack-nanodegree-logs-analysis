@@ -34,7 +34,7 @@ $ vagrant ssh
 ### Using your machine
 
 You need:
-1. Python 3 
+1. Python 2.7 or Python 3
 2. PostgreSQL
 3. psycopg2
 
