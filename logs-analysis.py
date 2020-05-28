@@ -1,4 +1,4 @@
-# !/usr/bin/env python
+#!/usr/bin/env python
 """Analysis of Newspaper website logs."""
 
 import psycopg2
