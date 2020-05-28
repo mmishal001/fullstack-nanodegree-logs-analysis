@@ -27,7 +27,7 @@ def most_popular_articles():
     rows = c.fetchall()
     print("Most popular three articles of all time:")
     for row in rows:
-        print(' {} - {:,} views'.format(row[0],row[1]))
+        print(' {} - {:,} views'.format(row[0], row[1]))
     print("")
     db.close()
     c.close()
@@ -47,7 +47,7 @@ def most_popular_authors():
     rows = c.fetchall()
     print("Most popular three authors of all time:")
     for row in rows:
-        print(' {} - {:,} views'.format(row[0],row[1]))
+        print(' {} - {:,} views'.format(row[0], row[1]))
     print("")
     db.close()
     c.close()
@@ -71,7 +71,7 @@ def days_with_more_than_1_percent_error():
     rows = c.fetchall()
     print("Day(s) with more than 1% of requests that lead to errors:")
     for row in rows:
-        print(' {} - {:.2f}% errors'.format(row[0],row[1]))
+        print(' {} - {:.2f}% errors'.format(row[0], row[1]))
     print("")
     db.close()
     c.close()
